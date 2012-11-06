@@ -25,7 +25,7 @@ class HelloWorldController < UIViewController
     true
   end
 
-  # Handles the 
+  # Handles the button action
   def say_hello
     @label.text = "Hello World"
   end
